@@ -87,6 +87,9 @@ main {
     margin: auto;
 }
 
+
+
+
 h2 {
     margin-top: 1.5rem;
     border-bottom: 2px solid #0056b3;
@@ -98,9 +101,16 @@ h2 {
     margin-bottom: 1.5rem;
     background-color: #fff;
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #b6b4b4; /* Adiciona uma borda azul */
+    box-shadow: 0 4px 8px rgba(226, 226, 226, 0.3); /* Adiciona a sombra azul */
+    
 }
+
+
+
+
 
 .question {
     margin-bottom: 1rem;
@@ -140,12 +150,7 @@ input[type="radio"] {
 #results {
     margin-top: 2rem;
     text-align: center;
-}
-
-#radar-chart {
-    max-width: 600px;
-    /* Ajuste conforme necessário */
-    margin: auto;
+    display: none;
 }
 
 
@@ -157,10 +162,3 @@ input[type="radio"] {
 }
 
 
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #ddd;
-    margin-top: 2rem;
-}
